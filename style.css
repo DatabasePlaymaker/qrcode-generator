@@ -13,17 +13,19 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
-input {
-  width: 300px;
-  padding: 15px;
+input,
+select {
+  width: 400px;
+  padding: 10px;
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 8px;
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: border-color 0.3s ease;
 }
-input:focus {
+input:focus,
+select:focus {
   border-color: #00aaff;
 }
 button {
@@ -48,4 +50,9 @@ button:hover {
 }
 button:disabled {
   background-color: #ccc;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
